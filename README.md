@@ -42,3 +42,5 @@ profit =
   - ad_spend_total
   - refund_total
   + reimbursement_total
+
+margin = profit / NULLIF(net_revenue, 0)
